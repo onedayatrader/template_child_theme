@@ -1,0 +1,16 @@
+/* ## Featured Content
+--------------------------------------------- */
+
+.featured-content .entry {
+   background: none;
+   padding: 0;
+
+   &:last-of-type {
+     margin-bottom: 0;
+   }
+
+   &-title {
+     font-size: $font_Wgt-FtdCnt-WgtTit-px;
+     font-size: $font_Wgt-FtdCnt-WgtTit-rem;
+   }
+ }

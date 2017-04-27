@@ -1,0 +1,40 @@
+/*!
+	Theme Name: core-theme
+	Theme URI: https://www.onedayatrader.com
+	Description: this is my template child theme for devloping websites
+	Author: Aiden Potter
+	Author URI: https://www.onedayatrader.com
+
+	Version: 1.0.0
+
+	Tags: responsive-layout
+
+	Template: genesis
+	Template Version: 2.3.0
+
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+	Text Domain: core-theme
+*/
+
+@import "html5-reset/index";
+@import "defaults/index";
+@import "structure-layout/index";
+@import "common-classes/index";
+@import "widgets/index";
+@import "plugins/index";
+@import "skip-links";
+@import "site-header/index";
+@import "site-navigation/index";
+@import "content-area/index";
+@import "side-bars";
+@import "footer-widgets";
+@import "site-footer";
+@import "media-queries/index";
+@import "print-styles";
+
+// variables?...
+
+
+

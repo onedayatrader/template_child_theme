@@ -1,0 +1,44 @@
+/* ## Headings
+--------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 10px;
+}
+
+h1 {
+  font-size: $font_Default-Heading-h1-px;
+  font-size: $font_Default-Heading;
+}
+
+h2 {
+  font-size: $font_Default-Heading-h2-px;
+  font-size: $font_Default-Heading-h2-rem;
+}
+
+h3 {
+  font-size: $font_Default-Heading-h3-px;
+  font-size: $font_Default-Heading-h3-rem;
+}
+
+h4 {
+  font-size: $font_Default-Heading-h4-px;
+  font-size: $font_Default-Heading-h4-rem;
+}
+
+h5 {
+  font-size: $font_Default-Heading-h5-px;
+  font-size: $font_Default-Heading-h5-rem;
+}
+
+h6 {
+  font-size: $font_Default-Heading-h6-px;
+  font-size: $font_Default-Heading-h6-rem;
+}

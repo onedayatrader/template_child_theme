@@ -1,0 +1,21 @@
+//
+// base elements
+//---------------------------------------------
+
+.content-sidebar-wrap {
+
+  .content-sidebar-sidebar &,
+  .sidebar-content-sidebar &,
+  .sidebar-sidebar-content & {
+    width: 1060px;
+  }
+
+  .content-sidebar-sidebar & {
+    float: left;
+  }
+
+  .sidebar-content-sidebar &,
+  .sidebar-sidebar-content & {
+    float: right;
+  }
+}

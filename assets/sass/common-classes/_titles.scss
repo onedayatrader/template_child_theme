@@ -1,0 +1,33 @@
+/* ## Titles
+--------------------------------------------- */
+
+.archive-description .entry-title,
+.archive-title,
+.author-box-title {
+  font-size: $font_ComCls-Tit-ArcDes-px;
+  font-size: $font_ComCls-Tit-ArcDes-rem;
+}
+
+.entry-title {
+  font-size: $font_ComCls-Tit-EntTit-px;
+  font-size: $font_ComCls-Tit-EntTit-rem;
+}
+
+.entry-title a,
+.sidebar .widget-title a {
+  color: $colour_CommonClasses-Titles-Link-Font;
+  text-decoration: none;
+}
+
+.entry-title a {
+  :focus,
+  :hover {
+    color: $colour_CommonClasses-Titles-Link-HoverFocus;
+  }
+}
+
+.widget-title {
+  font-size: $font_ComCls-Tit-WgtTit-px;
+  font-size: $font_ComCls-Tit-WgtTit-rem;
+  margin-bottom: 20px;
+}

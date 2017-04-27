@@ -1,0 +1,36 @@
+/* ## Pagination
+--------------------------------------------- */
+
+.pagination {
+  clear: both;
+  margin: 40px 0;
+}
+
+.adjacent-entry-pagination {
+  margin-bottom: 0;
+}
+
+.archive-pagination {
+  li {
+    display: inline;
+  }
+
+  a {
+    background-color: $colour_ContArea-Pag-ArcPag-Link-BckGrd;
+    color: $colour_ContentArea-Pagination-Link-Font;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 8px 12px;
+    text-decoration: none;
+  }
+
+  a:focus,
+  a:hover,
+  .active a {
+    background-color: $colour_ContArea-Pag-ArcPag-Link-FocHov-BckGrd;
+    color: $colour_ContArea-Pag-ArcPag-Link-FocHov-Fnt;
+  }
+}

@@ -1,0 +1,11 @@
+/* ### Primary Sidebar */
+
+.sidebar-primary {
+  float: right;
+  width: 360px;
+
+  .sidebar-content &,
+  .sidebar-sidebar-content & {
+    float: left;
+  }
+}
