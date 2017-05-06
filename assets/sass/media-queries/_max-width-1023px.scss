@@ -119,12 +119,18 @@
     &::before {
       display: inline-block;
       text-rendering: auto;
-      transform: rotate(0);
-      transition: transform .25s ease-in-out;
+      -webkit-transform: rotate( 0 );
+      -ms-transform:     rotate( 0 );
+      transform:         rotate( 0 );
+      -webkit-transition: transform .25s ease-in-out;
+      -ms-transition:     transform .25s ease-in-out;
+      transition:         transform .25s ease-in-out;
     }
 
     &.activated::before {
-      transform: rotate(180deg);
+      -webkit-transform: rotate( 180deg );
+      -ms-transform:     rotate( 180deg );
+      transform:         rotate( 180deg );
     }
   }
 
