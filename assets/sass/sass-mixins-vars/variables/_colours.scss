@@ -1,0 +1,97 @@
+// rationalised colour palette to allow naming of colours
+
+// colour names:
+//--------------------------------
+$colour-white:          #fff;
+$colour-mercury:        #e9e9e9;
+$colour-silver-chalice: #a8a8a8;
+$colour-dove-gray:      #676767;
+$colour-mine-shaft:     #272727;
+$colour-black:          #000;
+$colour-thunderbird:    #c3251d;
+
+// colour uses:
+//-----------------------------------------------------------------
+$colour_Default-TypeElement-Body-Font:          $colour-mine-shaft;
+$colour_Default-TypeElement-Body-BackGround:    $colour-mercury;
+$colour_Default-TypeElement-hrTags-BorderTop:   $colour-mercury;
+$colour_Default-TypeElement-Link-HoverFocus:    $colour-mine-shaft;
+$colour_Default-TypeElement-Link-Font:          $colour-thunderbird;
+
+$colour_Default-Gallery-Img-Border:             $colour-mercury;
+
+$colour_Default-Forms-Font:                     $colour-mine-shaft;
+$colour_Default-Forms-PlaceHolder-Font:         $colour-mine-shaft;
+$colour_Default-Forms-Button-BackGround:        $colour-mine-shaft;
+$colour_Default-Forms-SiteCont-Btn-BackGround:  $colour-mine-shaft;
+$colour_Default-Forms-Input-BackGround:         $colour-white;
+$colour_Default-Forms-Btn-Font:                 $colour-white;
+$colour_Default-Forms-Btn-FocHov-Font:          $colour-white;
+$colour_Default-Forms-Btn-FocHov-BckGrd:        $colour-thunderbird;
+$colour_Default-Forms-EntCont-Btn-FocHov-Font:  $colour-white;
+
+$colour_Default-Tables-Body-BorderBot:          $colour-mercury;
+$colour_Default-Tables-Body-BorderTop:          $colour-mercury;
+
+$colour_Default-ScreenReaderText-Font:          $colour-mine-shaft;
+
+$colour_CommonClasses-Titles-Link-Font:         $colour-mine-shaft;
+$colour_CommonClasses-Titles-Link-HoverFocus:   $colour-thunderbird;
+
+$colour_ComClass-Genesis-BreadCrumb-BckGrd:     $colour-white;
+$colour_ComClass-Genesis-AthBox-BckGrd:         $colour-white;
+
+
+$colour_Plugins-Enews-Widget-BackGround:        $colour-mine-shaft;
+$colour_Plugins-Enews-Widget-Border:            $colour-mine-shaft;
+$colour_Plugins-Enews-Widget-Font-HoverFocus:   $colour-mine-shaft;
+$colour_Plugins-Enews-Widget-Font:              $colour-white;
+$colour_Plugins-Enews-Widget-Inp-Font:          $colour-white;
+$colour_Plugins-Enews-Widget-Inp-BckGrd:        $colour-thunderbird;
+$colour_Plugins-Enews-Widget-Inp-FocHov-BckGrd: $colour-white;
+
+$colour_SkipLinks-Font-Focus:                   $colour-mine-shaft;
+
+$colour_SiteHeader-Base-BckGrd:                 $colour-mine-shaft;
+$colour_SiteHeader-TitleArea-Link-HoverFocus:   $colour-mine-shaft;
+
+$colour_SiteNav-Base-Link-Font:                 $colour-mine-shaft;
+$colour_SiteNav-Base-Link-FocHov:               $colour-thunderbird;
+$colour_SiteNav-Base-SubMenu-BorderTop:         $colour-mine-shaft;
+$colour_SiteNav-Base-SubMenu-Link-Border:       $colour-mine-shaft;
+$colour_SiteNav-Base-SubMenu-Link-BckGrd:       $colour-white;
+
+$colour_SiteNav-AfterHeader-NavPrime-BorderTop: $colour-mine-shaft;
+$colour_SiteNav-AftHdrNav-NavPrime-BckGrd:      $colour-white;
+
+$colour_ContentArea-Entries-Code-BackGround:    $colour-mine-shaft;
+$colour_ContentArea-Entries-Code-Font:          $colour-mercury;
+$colour_ContArea-Entries-Ent-BckGrd:            $colour-white;
+
+$colour_ContentArea-EntryMeta-Footer-BorderTop: $colour-mercury;
+
+$colour_ContentArea-Pagination-Link-Font:       $colour-mine-shaft;
+$colour_ContArea-Pag-ArcPag-Link-BckGrd:        $colour-white;
+$colour_ContArea-Pag-ArcPag-Link-FocHov-Fnt:    $colour-white;
+$colour_ContArea-Pag-ArcPag-Link-FocHov-BckGrd: $colour-thunderbird;
+
+$colour_ContArea-Com-ComResp-BckGrd:            $colour-white;
+
+$colour_SideBar-Widget-BckGrd:                  $colour-white;
+
+$colour_FooterWgt-FtrWgt-BckGrd:                $colour-white;
+
+$colour_SiteFooter-SiteFtr-BckGrd:              $colour-white;
+
+$colour_MedQuery-1023-MenuToggle-Font:          $colour-mine-shaft;
+$colour_MedQuery-1023-MenuToggle-FocHov-BdrTop: $colour-mercury;
+$colour_MedQuery-1023-MenTog-SubMen-BckGrd:     $colour-white;
+$colour_MedQuery-1023-MenTog-FocHov-BckGrd:     $colour-white;
+$colour_MedQuery-1023-MenTog-FocHov-Font:       $colour-thunderbird;
+
+//-------------------------------------------------------------------
+// more colours to be added below at a later date
+//-------------------------------------------------------------------
+// - $colour-silver-chalice
+// - $colour-dove-gray
+// - $colour-black
