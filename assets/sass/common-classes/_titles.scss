@@ -15,14 +15,14 @@
 
 .entry-title a,
 .sidebar .widget-title a {
-  color: $colour_CommonClasses-Titles-Link-Font;
+  color: $colour-commonclasses-titles-link-font;
   text-decoration: none;
 }
 
 .entry-title a {
   :focus,
   :hover {
-    color: $colour_CommonClasses-Titles-Link-HoverFocus;
+    color: $colour-commonclasses-titles-link-hoverfocus;
   }
 }
 

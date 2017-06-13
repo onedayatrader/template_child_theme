@@ -3,28 +3,28 @@
 
 .sidebar .enews-widget,
 .sidebar .enews-widget .widget-title {
-  color: $colour_Plugins-Enews-Widget-Font;
+  color: $colour-Plugins-Enews-Widget-Font;
 }
 
 .sidebar .widget.enews-widget {
-  background-color: $colour_Plugins-Enews-Widget-BackGround;
+  background-color: $colour-plugins-enews-widget-background;
 }
 
 .sidebar .enews-widget {
   input,
   input:focus {
-    border: 1px solid $colour_Plugins-Enews-Widget-Border;
+    border: 1px solid $colour-plugins-enews-widget-border;
   }
 
   input[type="submit"] {
-    background-color: $colour_Plugins-Enews-Widget-Inp-BckGrd;
-    color: $colour_Plugins-Enews-Widget-Inp-Font;
+    background-color: $colour-Plugins-Enews-Widget-Inp-BckGrd;
+    color: $colour-Plugins-Enews-Widget-Inp-Font;
   }
 
   input[type="submit"]:focus,
   nput[type="submit"]:hover  {
-    background-color: $colour_Plugins-Enews-Widget-Inp-FocHov-BckGrd;
-    color: $colour_Plugins-Enews-Widget-Font-HoverFocus;
+    background-color: $colour-Plugins-Enews-Widget-Inp-FocHov-BckGrd;
+    color: $colour-plugins-enews-widget-font-hoverfocus;
   }
 }
 

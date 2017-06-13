@@ -66,9 +66,9 @@
 
   .menu-toggle,
   .sub-menu-toggle {
-    background-color: $colour_MedQuery-1023-MenTog-SubMen-BckGrd;
+    background-color: $colour-medquery-1023-MenTog-SubMen-BckGrd;
     border-width: 0;
-    color: $colour_MedQuery-1023-MenuToggle-Font;
+    color: $colour-medquery-1023-MenuToggle-Font;
     display: block;
     margin: 0 auto;
     overflow: hidden;
@@ -80,9 +80,9 @@
   .menu-toggle:hover,
   .sub-menu-toggle:focus,
   .sub-menu-toggle:hover {
-    background-color: $colour_MedQuery-1023-MenTog-FocHov-BckGrd;
+    background-color: $colour-medquery-1023-menu-tog-fochov-BckGrd;
     border-width: 0;
-    color: $colour_MedQuery-1023-MenTog-FocHov-Font;
+    color: $colour-medquery-1023-menu-tog-fochov-Font;
   }
 
   .menu-toggle {
@@ -94,7 +94,7 @@
     &,
     &:focus,
     &:hover {
-      border-top: 1px solid $colour_MedQuery-1023-MenuToggle-FocHov-BdrTop;
+      border-top: 1px solid $colour-medquery-1023-MenuToggle-FocHov-BdrTop;
     }
 
     &::before {

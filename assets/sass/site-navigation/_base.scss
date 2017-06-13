@@ -17,7 +17,7 @@
   }
 
   a {
-    color: $colour_SiteNav-Base-Link-Font;
+    color: $colour-SiteNav-Base-Link-Font;
     display: block;
     padding: 32px 20px;
     text-decoration: none;
@@ -28,12 +28,12 @@
   .current-menu-item > a,
   .sub-menu .current-menu-item > a:focus,
   .sub-menu .current-menu-item > a:hover {
-    color: $colour_SiteNav-Base-Link-FocHov;
+    color: $colour-SiteNav-Base-Link-FocHov;
     text-decoration: underline;
   }
 
   .sub-menu {
-    border-top: 1px solid $colour_SiteNav-Base-SubMenu-BorderTop;
+    border-top: 1px solid $colour-SiteNav-Base-SubMenu-BorderTop;
     left: -9999px;
     opacity: 0;
     position: absolute;
@@ -46,8 +46,8 @@
     z-index: 99;
 
     a {
-      background-color: $colour_SiteNav-Base-SubMenu-Link-BckGrd;
-      border: 1px solid $colour_SiteNav-Base-SubMenu-Link-Border;
+      background-color: $colour-SiteNav-Base-SubMenu-Link-BckGrd;
+      border: 1px solid $colour-SiteNav-Base-SubMenu-Link-Border;
       border-top: 0;
       font-size: 14px;
       font-size: 1.4rem;

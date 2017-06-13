@@ -4,9 +4,9 @@
 input,
 select,
 textarea {
-  background-color: $colour_Default-Forms-Input-BackGround;
+  background-color: $colour-default-forms-Input-BackGround;
   border: 1px solid #ddd;
-  color: $colour_Default-Forms-Font;
+  color: $colour-default-forms-Font;
   font-size: $font_Default-Form-Ipt-px;
   font-size: $font_Default-Form-Ipt-rem;
   font-weight: 400;
@@ -27,12 +27,12 @@ input[type="radio"] {
 }
 
 ::-moz-placeholder {
-  color: $colour_Default-Forms-PlaceHolder-Font;
+  color: $colour-default-forms-place-holder-font;
   opacity: 1;
 }
 
 ::-webkit-input-placeholder {
-  color: $colour_Default-Forms-PlaceHolder-Font;
+  color: $colour-default-forms-place-holder-font;
 }
 
 button,
@@ -40,9 +40,9 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button {
-  background-color: $colour_Default-Forms-Button-BackGround;
+  background-color: $colour-default-forms-button-background;
   border: 0;
-  color: $colour_Default-Forms-Btn-Font;
+  color: $colour-default-forms-btn-Font;
   cursor: pointer;
   font-size: $font_Default-Form-IptBtn-px;
   font-size: $font_Default-Form-IptBtn-rem;
@@ -63,14 +63,14 @@ input[type="submit"]:focus,
 input[type="submit"]:hover,
 .button:focus,
 .button:hover {
-  background-color: $colour_Default-Forms-Btn-FocHov-BckGrd;
-  color: $colour_Default-Forms-Btn-FocHov-Font;
+  background-color: $colour-default-forms-btn-fochov-backgrd;
+  color: $colour-default-forms-btn-foc-hov-font;
 }
 
 .entry-content {
   .button:focus,
   .button:hover {
-    color: $colour_Default-Forms-EntCont-Btn-FocHov-Font;
+    color: $colour-default-forms-entcont-btn-fochov-font;
   }
 }
 
@@ -97,7 +97,7 @@ input[type="submit"].small {
   input[type="reset"]:disabled:hover,
   input[type="submit"]:disabled,
   input[type="submit"]:disabled:hover {
-    background-color: $colour_Default-Forms-SiteCont-Btn-BackGround;
+    background-color: $colour-default-forms-SiteCont-Btn-BackGround;
     border-width: 0;
     color: #777;
     cursor: not-allowed;

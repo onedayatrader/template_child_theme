@@ -2,7 +2,7 @@
 --------------------------------------------- */
 
 .entry {
-  background-color: $colour_ContArea-Entries-Ent-BckGrd;
+  background-color: $colour-content-area-Entries-Ent-BckGrd;
   margin-bottom: 40px;
   padding: 70px 80px;
 }
@@ -28,7 +28,7 @@
   }
 
   code {
-    background-color: $colour_ContentArea-Entries-Code-BackGround;
-    color: $colour_ContentArea-Entries-Code-Font;
+    background-color: $colour-ContentArea-Entries-Code-BackGround;
+    color: $colour-ContentArea-Entries-Code-Font;
   }
 }
