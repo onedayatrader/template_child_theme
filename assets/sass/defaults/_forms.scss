@@ -7,8 +7,8 @@ textarea {
   background-color: $colour-default-forms-Input-BackGround;
   border: 1px solid #ddd;
   color: $colour-default-forms-Font;
-  font-size: $font_Default-Form-Ipt-px;
-  font-size: $font_Default-Form-Ipt-rem;
+  font-size: $font-default-form-Ipt-px;
+  font-size: $font-default-form-Ipt-rem;
   font-weight: 400;
   padding: 16px;
   width: 100%;
@@ -44,8 +44,8 @@ input[type="submit"],
   border: 0;
   color: $colour-default-forms-btn-Font;
   cursor: pointer;
-  font-size: $font_Default-Form-IptBtn-px;
-  font-size: $font_Default-Form-IptBtn-rem;
+  font-size: $font-default-form-IptBtn-px;
+  font-size: $font-default-form-IptBtn-rem;
   font-weight: 700;
   padding: 16px 24px;
   text-decoration: none;
